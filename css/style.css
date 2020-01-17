@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), url(http://192.168.33.10/pportfolio/images/bg.jpg);
+    background-size: cover;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav{
+    position: absolute;
+    left: 73vw;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+header li{
+    list-style: none;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#ic{
+    visibility: hidden;
+}
+
+#centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 90vh;
+}
+
+header h1{
+    color: white;
+    font-size: 5vh;
+    font-family: 'Monserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+header h2{
+    color: white;
+    font-size: 6vh;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+
+i{
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#deux{
+    font-family: 'Monserrat', sans-serif;
+}
+
+#hud{
+    margin-top: 10px;
+}
+
+#hdd{
+    color: gray;
+    font-size: medium;
+}
+
+.hpdeux{
+    text-align: center;
+}
+
+#partdeux{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#partdeux{
+    display: flex;
+    flex-direction: row;
+}
+
+#alignefett{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+    font-size: medium;
+}
+
+#margepd{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bdg{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#bdd{
+    background-color: white;
+    color: purple;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#trois{
+    font-family: 'Monserrat', sans-serif;
+    background-color: #d9d9d9;
+}
+
+#hut{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#hdt{
+    color: gray;
+    font-size: medium;
+}
+
+.hptrois{
+    text-align: center;
+}
+
+.carflex{
+    width: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carimage{
+    width: 100px;
+    height: 100px;
+}
+
+.carimage img{
+    border-radius: 50%;
+}
+
+#quatre{
+    font-family: 'Monserrat', sans-serif;
+}
+
+#huq{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hdq{
+    color: gray;
+    font-size: medium;
+}
+
+.hpquatre{
+    text-align: center;
+}
+
+#carreexodeux{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.image:hover #carreexodeux{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsix{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.image:hover #transsix{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+}
+
+#carreexodeuxx{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.imagex:hover #carreexodeuxx{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsixx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.imagex:hover #transsixx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.imagex{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+
+.imagex img{
+    width: 300px;
+    height: 300px;
+}
+
+#carreexodeuxxx{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.imagexx:hover #carreexodeuxxx{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsixxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.imagexx:hover #transsixxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.imagexx{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+
+.imagexx img{
+    width: 300px;
+    height: 300px;
+}
+
+.aligne{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#carreexodeuxxxx{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.imagexxx:hover #carreexodeuxxxx{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsixxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.imagexxx:hover #transsixxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.imagexxx{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+
+.imagexxx img{
+    width: 300px;
+    height: 300px;
+}
+
+#carreexodeuxxxxxx{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.imagexxxxx:hover #carreexodeuxxxxxx{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsixxxxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.imagexxxxx:hover #transsixxxxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.imagexxxxx{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+
+.imagexxxxx img{
+    width: 300px;
+    height: 300px;
+}
+
+#carreexodeuxxxxxxxx{
+    visibility: hidden;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+.imagexxxxxxx:hover #carreexodeuxxxxxxxx{
+    visibility: initial;
+    position: absolute;
+    top: 17vh;
+    left: 6vw;
+}
+
+#transsixxxxxxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.imagexxxxxxx:hover #transsixxxxxxxx{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    visibility: initial;
+    opacity: 0.5;
+}
+
+.imagexxxxxxx{
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-family: 'Monserrat', sans-serif;
+    position: relative;
+}
+.imagexxxxxxx img{
+    width: 300px;
+    height: 300px;
+}
+
+#cinq{
+    font-family: 'Monserrat', sans-serif;
+    background-color: #d9d9d9
+}
+
+#formulaire{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#alignform{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formc{
+    font-family: 'Monserrat', sans-serif;
+    color: #d9d9d9;
+    font-size: 3vh;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    width: 20vw;
+    height: 5vh;
+}
+
+.margeform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#buttoncontact{
+    font-family: 'Monserrat', sans-serif;
+    color: white;
+    background-color: black;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+footer{
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Monserrat', sans-serif;
+}
+
+@media (max-width: 750px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        width: auto;
+        height: 100vh;
+        background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), url(http://192.168.33.10/pportfolio/images/bg.jpg);
+        background-size: cover;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    header li{
+        visibility: hidden;
+    }
+
+    #ic{
+        visibility: initial;
+    }
+    
+    #centre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 90vh;
+    }
+    
+    header h1{
+        color: white;
+        font-size: 5vh;
+        font-family: 'Monserrat', sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    header h2{
+        color: white;
+        font-size: 6vh;
+        font-family: 'Monserrat', sans-serif;
+        font-weight: lighter;
+        margin-bottom: 50px;
+    }
+    
+    #logo{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    i{
+        color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #deux{
+        font-family: 'Monserrat', sans-serif;
+    }
+    
+    #hud{
+        margin-top: 10px;
+    }
+    
+    #hdd{
+        color: gray;
+        font-size: medium;
+    }
+    
+    .hpdeux{
+        text-align: center;
+    }
+    
+    #partdeux{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    
+    #image img{
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    
+    #partdeux{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #alignefett{
+        margin-top: 20px;
+        margin-left: 10px;
+        color: gray;
+        font-size: medium;
+    }
+    
+    #margepd{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #bdg{
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 50px;
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+    
+    #bdd{
+        background-color: white;
+        color: purple;
+        width: 150px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .aligne{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .margep{
+        margin-top: 10px;
+    }
+}
