@@ -15,11 +15,6 @@ $(function(){
 	});
 });
 
-var positionsect = $("#deux").position().top;
-
-var positionact = window.scrollY;
-
-if (positionsect.top >= positionact) {
-	$("#navscroll").css('background-color', 'black');
-	$("#navscroll").css('transition', 'background-color 2s');
-}
+$("#ic").on("click", function () {
+	$("header li").toggleClass("visible");
+});
